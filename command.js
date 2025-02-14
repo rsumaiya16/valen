@@ -21,8 +21,8 @@ yesBtn.addEventListener("click", () => {
         questionText.textContent = questions[currentQuestion].text;
         cartoonImage.src = questions[currentQuestion].gif; // Change GIF
     } else {
-        response.textContent = "now let me cringe u a bit";
-        response.style.color = "purple";
+        response.textContent = "lemme cringe u out a lil";
+        response.style.color = "brown";
 
         // Redirect to the envelope-letter page
         setTimeout(() => {
